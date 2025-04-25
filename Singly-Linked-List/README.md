@@ -40,17 +40,6 @@ Below table represents the time and space complexities for various operations on
 ## Complexity Analysis
 
 ### Insertion at the Beginning of Linked List
-
-- **Time Complexity**: `O(1)`
-
-  - **Reason**:
-    - Create a new node.
-    - Set the next pointer of the new node to the current head.
-    - Update the head to point to the new node.
-    - Constant-time pointer manipulations.
-
-- **Auxiliary Space**: `O(1)`
-  - **Reason**: Only one new node is created (no extra memory proportional to input size).
 - **Time Complexity**: `O(1)`  
   - **Reason**:  
     - Create a new node.  
@@ -64,15 +53,6 @@ Below table represents the time and space complexities for various operations on
 ---
 
 ### Insertion at the End of Linked List
-
-- **Time Complexity**: `O(n)`
-
-  - **Reason**:
-    - Traverse the entire list to find the last node (linear time).
-    - Update the last node's next pointer.
-
-- **Auxiliary Space**: `O(1)`
-  - **Reason**: Only one new node is created.
 - **Time Complexity**: `O(n)`  
   - **Reason**:  
     - Traverse the entire list to find the last node (linear time).  
@@ -84,15 +64,6 @@ Below table represents the time and space complexities for various operations on
 ---
 
 ### Insertion at a Specific Position of Linked List
-
-- **Time Complexity**: `O(n)`
-
-  - **Reason**:
-    - Traverse to the node before the desired position (worst-case `O(n)`).
-    - Update pointers for the new node.
-
-- **Auxiliary Space**: `O(1)`
-  - **Reason**: Only one new node is created.
 - **Time Complexity**: `O(n)`  
   - **Reason**:  
     - Traverse to the node before the desired position (worst-case `O(n)`).  
@@ -104,13 +75,6 @@ Below table represents the time and space complexities for various operations on
 ---
 
 ### Deletion at the Beginning of Linked List
-
-- **Time Complexity**: `O(1)`
-
-  - **Reason**: Update the head pointer to the next node.
-
-- **Auxiliary Space**: `O(1)`
-  - **Reason**: No additional memory required.
 - **Time Complexity**: `O(1)`  
   - **Reason**: Update the head pointer to the next node.  
 
@@ -120,15 +84,6 @@ Below table represents the time and space complexities for various operations on
 ---
 
 ### Deletion at the End of Linked List
-
-- **Time Complexity**: `O(n)`
-
-  - **Reason**:
-    - Traverse the list to find the second-to-last node (linear time).
-    - Update its next pointer to `null`.
-
-- **Auxiliary Space**: `O(1)`
-  - **Reason**: No additional memory required.
 - **Time Complexity**: `O(n)`  
   - **Reason**:  
     - Traverse the list to find the second-to-last node (linear time).  
@@ -140,15 +95,6 @@ Below table represents the time and space complexities for various operations on
 ---
 
 ### Deletion at a Specific Position of Linked List
-
-- **Time Complexity**: `O(n)`
-
-  - **Reason**:
-    - Traverse to the node before the target position (worst-case `O(n)`).
-    - Bypass the node to delete.
-
-- **Auxiliary Space**: `O(1)`
-  - **Reason**: No additional memory required.
 - **Time Complexity**: `O(n)`  
   - **Reason**:  
     - Traverse to the node before the target position (worst-case `O(n)`).  
@@ -160,13 +106,6 @@ Below table represents the time and space complexities for various operations on
 ---
 
 ### Search for a Value in Linked List
-
-- **Time Complexity**: `O(n)`
-
-  - **Reason**: Traverse the list until the value is found (worst-case `O(n)`).
-
-- **Auxiliary Space**: `O(1)`
-  - **Reason**: No additional memory required.
 - **Time Complexity**: `O(n)`  
   - **Reason**: Traverse the list until the value is found (worst-case `O(n)`).  
 
