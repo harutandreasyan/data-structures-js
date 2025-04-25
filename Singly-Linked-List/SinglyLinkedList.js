@@ -1,4 +1,4 @@
-import Node from './LinkedListNode.js'
+import Node from './linkedListNode.js'
 import Comparator from './utils/Comparator.js'
 
 // Singly Linked List
