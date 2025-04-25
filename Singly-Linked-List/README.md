@@ -13,7 +13,7 @@ The first node is called the head, it points to the first node of the list
 and helps us access every other element in the list. 
 The last node, also sometimes called the tail, points to NULL
 which helps us in determining when the list ends.
-```
+
 
 ## Complexities
 
