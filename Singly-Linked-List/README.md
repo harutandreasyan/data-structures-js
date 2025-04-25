@@ -1,0 +1,1 @@
+![List Structure](./singly-linked-list.png)
