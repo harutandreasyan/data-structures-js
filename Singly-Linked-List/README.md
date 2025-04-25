@@ -20,8 +20,6 @@ The last node, also sometimes called the tail, points to NULL which helps us in 
 | :--: | :----: | :----: | :----: |
 | O(n) |  O(n)  |  O(1)  |  O(n)  |
 
-## Complexities
-
 ### Space Complexity
 
 O(N)
