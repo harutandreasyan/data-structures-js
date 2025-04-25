@@ -11,3 +11,7 @@
 
 O(N)
 
+Below table represents the time and space complexities for various operations on a linked list:
+|  OPERATION  | TIME COMPLEXITY | AUXILIARY SPACE | EXPLANATION |
+|:-----------:|:---------------:|:---------------:|:-----------:|
+| Insertion at <br>Beginning        | O(N)            | O(1)    O(N)    |             |
